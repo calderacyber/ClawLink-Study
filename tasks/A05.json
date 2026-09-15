@@ -1,0 +1,11 @@
+{
+  "id": "A05",
+  "title": "Synthetic alert A05",
+  "expected": "suspicious",
+  "facts": [
+    "Word spawned PowerShell with -EncodedCommand for a user who opened an invoice attachment.",
+    "The payload decoded to a network request to an unapproved domain.",
+    "No child process or persistence was captured."
+  ],
+  "question": "Classify this synthetic alert using only the supplied facts. Return a benign, suspicious, or malicious disposition with evidence, uncertainty, and next action."
+}

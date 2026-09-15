@@ -1,0 +1,11 @@
+{
+  "id": "A01",
+  "title": "Synthetic alert A01",
+  "expected": "benign",
+  "facts": [
+    "Signed Contoso updater launched msiexec during its scheduled 02:00 window.",
+    "It downloaded only from updates.contoso.example using a pinned certificate.",
+    "No persistence or credential access occurred."
+  ],
+  "question": "Classify this synthetic alert using only the supplied facts. Return a benign, suspicious, or malicious disposition with evidence, uncertainty, and next action."
+}

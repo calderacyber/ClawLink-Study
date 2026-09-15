@@ -1,0 +1,11 @@
+{
+  "id": "A15",
+  "title": "Synthetic alert A15",
+  "expected": "suspicious",
+  "facts": [
+    "An unsigned process opened LSASS with read permissions.",
+    "The process is not an approved security or backup product.",
+    "No memory dump file or credential use was observed."
+  ],
+  "question": "Classify this synthetic alert using only the supplied facts. Return a benign, suspicious, or malicious disposition with evidence, uncertainty, and next action."
+}

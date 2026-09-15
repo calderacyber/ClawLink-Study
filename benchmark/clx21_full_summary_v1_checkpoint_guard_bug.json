@@ -1,0 +1,9 @@
+{
+  "run": "clx21-full-20",
+  "tasks": 20,
+  "correct": 16,
+  "checkpoints": 4,
+  "mean_elapsed_s": 11.87,
+  "mean_bytes_in": 158.8,
+  "mean_bytes_out": 438.9
+}

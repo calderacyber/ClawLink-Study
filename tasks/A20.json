@@ -1,0 +1,11 @@
+{
+  "id": "A20",
+  "title": "Synthetic alert A20",
+  "expected": "malicious",
+  "facts": [
+    "An administrator account disabled endpoint protection on three servers.",
+    "The action occurred outside the approved maintenance window.",
+    "The same account then opened remote shells from an unmanaged IP."
+  ],
+  "question": "Classify this synthetic alert using only the supplied facts. Return a benign, suspicious, or malicious disposition with evidence, uncertainty, and next action."
+}

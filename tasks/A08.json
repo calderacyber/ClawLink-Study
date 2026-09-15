@@ -1,0 +1,11 @@
+{
+  "id": "A08",
+  "title": "Synthetic alert A08",
+  "expected": "benign",
+  "facts": [
+    "A signed vulnerability scanner queried SMB version information.",
+    "The source is approved and the scan ticket covers the targets.",
+    "It used no exploit attempts or credential dumping behavior."
+  ],
+  "question": "Classify this synthetic alert using only the supplied facts. Return a benign, suspicious, or malicious disposition with evidence, uncertainty, and next action."
+}

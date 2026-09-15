@@ -1,0 +1,11 @@
+{
+  "id": "A18",
+  "title": "Synthetic alert A18",
+  "expected": "benign",
+  "facts": [
+    "A monitoring agent queried CPU, disk, and process health every five minutes.",
+    "The binary is signed and installed by the approved monitoring platform.",
+    "The telemetry went only to the documented monitoring endpoint."
+  ],
+  "question": "Classify this synthetic alert using only the supplied facts. Return a benign, suspicious, or malicious disposition with evidence, uncertainty, and next action."
+}

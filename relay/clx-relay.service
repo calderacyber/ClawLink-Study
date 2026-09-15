@@ -1,0 +1,19 @@
+[Unit]
+Description=ClawLink Study relay
+After=openclaw-gateway.service
+Wants=openclaw-gateway.service
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/clawlink-study
+ExecStart=/usr/bin/python3 /opt/clawlink-study/relay/clx_relay.py
+Restart=on-failure
+RestartSec=3
+Environment=CLX_ROOT=/opt/clawlink-study
+Environment=CLX_WORKER_AGENT_ID=worker
+Environment=CLX_MODEL=openai/gpt-5.6-sol
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=default.target

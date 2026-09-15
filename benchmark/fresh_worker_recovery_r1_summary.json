@@ -1,0 +1,8 @@
+{
+  "run": "clx21-recovery-fresh-r1",
+  "fresh_session": "clx-clx21-recovery-fresh-r1",
+  "tasks": 4,
+  "correct": 4,
+  "checkpoint_acknowledged": true,
+  "invalid_task_escalated": true
+}

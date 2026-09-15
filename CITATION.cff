@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use ClawLink Study, please cite this case study and its artifact bundle."
+title: "ClawLink Study: Auditable Compact Protocols for Two-Agent Collaboration"
+type: software
+authors:
+  - family-names: Myers
+    given-names: Rick
+    affiliation: Caldera Cybersecurity Services
+date-released: 2026-09-15
+license: Apache-2.0
+abstract: "A reproducible synthetic case study of auditable compact protocols for bounded two-agent collaboration."
+repository-code: "https://github.com/REPLACE-AT-PUBLICATION/clawlink-study"
+keywords:
+  - multi-agent systems
+  - cybersecurity
+  - reproducibility
+  - auditability

@@ -1,0 +1,11 @@
+{
+  "id": "A16",
+  "title": "Synthetic alert A16",
+  "expected": "benign",
+  "facts": [
+    "A certificate-management service replaced an expiring TLS certificate.",
+    "The new certificate matches the approved CA and host name.",
+    "The operation follows its scheduled renewal window."
+  ],
+  "question": "Classify this synthetic alert using only the supplied facts. Return a benign, suspicious, or malicious disposition with evidence, uncertainty, and next action."
+}

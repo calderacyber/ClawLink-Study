@@ -1,0 +1,11 @@
+{
+  "id": "A04",
+  "title": "Synthetic alert A04",
+  "expected": "benign",
+  "facts": [
+    "The approved network scanner authenticated to its assigned subnet at 03:00.",
+    "Its source IP, destination range, and change ticket match the scan schedule.",
+    "No hosts outside scope were contacted."
+  ],
+  "question": "Classify this synthetic alert using only the supplied facts. Return a benign, suspicious, or malicious disposition with evidence, uncertainty, and next action."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "A13",
+  "title": "Synthetic alert A13",
+  "expected": "malicious",
+  "facts": [
+    "A process rapidly encrypted user documents and deleted shadow copies.",
+    "It left a ransom note in each directory.",
+    "The process contacted a known ransomware payment site."
+  ],
+  "question": "Classify this synthetic alert using only the supplied facts. Return a benign, suspicious, or malicious disposition with evidence, uncertainty, and next action."
+}

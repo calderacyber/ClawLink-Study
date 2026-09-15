@@ -1,0 +1,13 @@
+# ClawLink Study
+Copyright 2026 Caldera Cybersecurity Services
+
+Primary researcher: Rick Myers
+
+Paper, documentation, diagrams, and synthetic benchmark data: CC BY 4.0.
+Original relay, benchmark, and test code: Apache-2.0.
+
+This bundle intentionally excludes credentials, SSH keys, gateway tokens,
+Tailscale identifiers, client data, and production-system data.
+
+Names of third-party products and services are used only to describe the
+experimental environment. Their respective owners retain all trademark rights.

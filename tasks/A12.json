@@ -1,0 +1,11 @@
+{
+  "id": "A12",
+  "title": "Synthetic alert A12",
+  "expected": "suspicious",
+  "facts": [
+    "A user granted a third-party OAuth application mailbox-read permission.",
+    "The application is not in the approved SaaS catalog.",
+    "There is no evidence of mailbox access yet."
+  ],
+  "question": "Classify this synthetic alert using only the supplied facts. Return a benign, suspicious, or malicious disposition with evidence, uncertainty, and next action."
+}

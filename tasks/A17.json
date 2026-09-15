@@ -1,0 +1,11 @@
+{
+  "id": "A17",
+  "title": "Synthetic alert A17",
+  "expected": "malicious",
+  "facts": [
+    "An unknown archive tool compressed finance data.",
+    "It uploaded the archive to an unapproved cloud-storage account.",
+    "The user has no business need for that destination."
+  ],
+  "question": "Classify this synthetic alert using only the supplied facts. Return a benign, suspicious, or malicious disposition with evidence, uncertainty, and next action."
+}

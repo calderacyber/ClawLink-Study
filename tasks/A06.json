@@ -1,0 +1,11 @@
+{
+  "id": "A06",
+  "title": "Synthetic alert A06",
+  "expected": "malicious",
+  "facts": [
+    "An unsigned process created a Run key and a scheduled task.",
+    "It connected every five minutes to a newly registered domain.",
+    "The domain returned encrypted command blobs."
+  ],
+  "question": "Classify this synthetic alert using only the supplied facts. Return a benign, suspicious, or malicious disposition with evidence, uncertainty, and next action."
+}

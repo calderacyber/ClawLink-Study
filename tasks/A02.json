@@ -1,0 +1,11 @@
+{
+  "id": "A02",
+  "title": "Synthetic alert A02",
+  "expected": "benign",
+  "facts": [
+    "BackupAgent ran vssadmin list shadows at 01:05, its documented backup window.",
+    "The parent is signed BackupAgent.exe and the host has the approved backup job.",
+    "No deletion command or outbound transfer occurred."
+  ],
+  "question": "Classify this synthetic alert using only the supplied facts. Return a benign, suspicious, or malicious disposition with evidence, uncertainty, and next action."
+}

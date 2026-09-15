@@ -1,0 +1,23 @@
+{
+  "plain": {
+    "trials": 20,
+    "correct": 19,
+    "errors": 0,
+    "mean_elapsed_s": 8.56,
+    "mean_bytes_out": 184.2
+  },
+  "clx1": {
+    "trials": 20,
+    "correct": 19,
+    "errors": 0,
+    "mean_elapsed_s": 15.17,
+    "mean_bytes_out": 1005.1
+  },
+  "clxdelta": {
+    "trials": 20,
+    "correct": 19,
+    "errors": 0,
+    "mean_elapsed_s": 16.12,
+    "mean_bytes_out": 1303.2
+  }
+}

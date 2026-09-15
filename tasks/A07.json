@@ -1,0 +1,11 @@
+{
+  "id": "A07",
+  "title": "Synthetic alert A07",
+  "expected": "suspicious",
+  "facts": [
+    "A user-launched cleanup tool attempted to delete endpoint-agent logs.",
+    "The tool is unsigned and not in the approved software catalog.",
+    "No other persistence or network behavior is available."
+  ],
+  "question": "Classify this synthetic alert using only the supplied facts. Return a benign, suspicious, or malicious disposition with evidence, uncertainty, and next action."
+}

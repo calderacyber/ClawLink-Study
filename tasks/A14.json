@@ -1,0 +1,11 @@
+{
+  "id": "A14",
+  "title": "Synthetic alert A14",
+  "expected": "benign",
+  "facts": [
+    "Windows Update initiated a reboot after approved monthly patching.",
+    "The update source was Microsoft and the maintenance window matches.",
+    "No unexpected processes ran before reboot."
+  ],
+  "question": "Classify this synthetic alert using only the supplied facts. Return a benign, suspicious, or malicious disposition with evidence, uncertainty, and next action."
+}

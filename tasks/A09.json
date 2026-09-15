@@ -1,0 +1,11 @@
+{
+  "id": "A09",
+  "title": "Synthetic alert A09",
+  "expected": "suspicious",
+  "facts": [
+    "A VPN login occurred from a country not used by the employee in the last year.",
+    "MFA succeeded and the device is managed.",
+    "No impossible-travel corroboration or risky follow-on activity is available."
+  ],
+  "question": "Classify this synthetic alert using only the supplied facts. Return a benign, suspicious, or malicious disposition with evidence, uncertainty, and next action."
+}

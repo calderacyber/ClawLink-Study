@@ -1,0 +1,11 @@
+{
+  "id": "A11",
+  "title": "Synthetic alert A11",
+  "expected": "benign",
+  "facts": [
+    "A developer executed git, npm, and docker commands in the approved build workspace.",
+    "The activity occurred during a recorded deployment.",
+    "No production credentials or external destinations were accessed."
+  ],
+  "question": "Classify this synthetic alert using only the supplied facts. Return a benign, suspicious, or malicious disposition with evidence, uncertainty, and next action."
+}
