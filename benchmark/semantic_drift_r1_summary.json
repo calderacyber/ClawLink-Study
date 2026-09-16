@@ -1,0 +1,7 @@
+{
+  "run": "clx-semantic-drift-r1",
+  "cases": 8,
+  "passed": 8,
+  "failed": [],
+  "policy": "Unregistered compact terms, unknown task references, and proposals lacking relay-side deterministic decoding must escalate; registered controls must return a result."
+}

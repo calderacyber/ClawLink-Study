@@ -15,6 +15,9 @@ All workload cases are synthetic.
   from the canonical case library; the benchmark runner reads `cases.json`)
 - Relay implementation: `relay/clx_relay.py`
 - Trial outputs: `benchmark/*.jsonl` and `benchmark/*summary.json`
+- Semantic-drift challenge: `benchmark/run_semantic_drift_challenge.py`,
+  `benchmark/semantic_drift_r1_results.jsonl`, and
+  `benchmark/semantic_drift_r1_summary.json`
 
 ## Measures
 
@@ -47,6 +50,9 @@ completed exchange.
   benchmark conversation, acknowledged the documented protocol, classified
   4/4 selected cases correctly, acknowledged the fourth-task checkpoint, and
   safely escalated an unknown task reference (`A99`).
+- `clx-semantic-drift-r1`: 8/8 expected outcomes. Registered CLX/1 and CLX/2
+  controls returned `RES`; unregistered shorthand, opaque metaphors, an
+  unsupported protocol proposal, and an unknown task ID returned `ESC`.
 
 ## Publication-bundle integrity
 

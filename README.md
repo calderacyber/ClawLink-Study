@@ -16,6 +16,8 @@ sanitized experiment artifacts.
 - `relay/`: the loopback-only relay implementation and boundary test.
 - `INTEGRITY_MANIFEST.sha256`: file-integrity verification manifest.
 - `SANITIZATION.md`: public-release pseudonymization and deployment guidance.
+- `SEMANTIC_DRIFT_EXPERIMENT.md`: controlled follow-on test of unregistered
+  compact-language rejection.
 
 Initial trial:
 

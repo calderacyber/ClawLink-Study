@@ -4,7 +4,7 @@ status: Release candidate
 authors: "Rick Myers"
 affiliation: "Caldera Cybersecurity Services"
 copyright: "Copyright 2026 Caldera Cybersecurity Services"
-date: 2026-09-15
+date: 2026-09-16
 license: "Paper and synthetic data: CC BY 4.0; original code: Apache-2.0"
 ---
 
@@ -259,6 +259,23 @@ context without inheriting prior benchmark conversation. This is evidence of
 limited handoff recoverability—not proof that arbitrary future workers will
 understand the protocol.
 
+### 5.6 Semantic-drift guard challenge
+
+After the initial benchmark, we ran an eight-case controlled challenge to test
+whether the worker would operationalize unregistered shorthand. Two registered
+CLX controls were expected to return results. Six challenges used undefined
+tokens, context-dependent metaphors, an unsupported protocol proposal, or an
+unknown task reference; each was expected to escalate. All eight outcomes
+matched the policy: 2/2 registered controls returned `RES`, and 6/6 challenges
+returned `ESC`. Raw envelopes and the case-by-case table are in
+`SEMANTIC_DRIFT_EXPERIMENT.md` and
+`benchmark/semantic_drift_r1_results.jsonl`.
+
+This is a protocol-enforcement result, not a demonstration that language drift
+cannot occur. It tests rejection after an opaque term is presented; it does not
+simulate a long-lived, open-ended agent society or independently measure human
+interpretability of emergent messages.
+
 ## 6. Discussion
 
 The useful outcome was not an autonomous “new language.” It was a narrow,
@@ -325,6 +342,9 @@ requests, but this study did not isolate the source of wall-clock latency.
 | `benchmark/clx21_full_r3_summary.json` | Validated summary. |
 | `benchmark/fresh_worker_recovery_r1.jsonl` | Fresh-session recovery records. |
 | `benchmark/fresh_worker_recovery_r1_summary.json` | Fresh-session recovery summary. |
+| `benchmark/semantic_drift_r1_results.jsonl` | Controlled semantic-drift guard records. |
+| `benchmark/semantic_drift_r1_summary.json` | Semantic-drift challenge summary. |
+| `SEMANTIC_DRIFT_EXPERIMENT.md` | Drift challenge method, outcomes, and limits. |
 | `benchmark/clx21_full_results_v1_checkpoint_guard_bug.jsonl` | Invalid first full run: original checkpoint defect. |
 | `benchmark/clx21_full_r2_results.jsonl` | Invalid second full run: ambiguous checkpoint assertion. |
 | `INTEGRITY_MANIFEST.sha256` | SHA-256 inventory for the publication bundle. |
